@@ -1,0 +1,433 @@
+/*MEDIAQUERIES PARA EL SLIDER (AJUSTE H3 Y PANTALLA IMÁGENES FLAT)*/
+
+@media (max-width:1250px){
+    
+    #frase-slider{
+	font-size: 2.6em;
+    }
+    #pantalla{
+	bottom:179px;
+    }
+}
+
+@media (max-width:1068px){   
+    
+    #frase-slider{
+	font-size: 2em;
+    }
+    #pantalla{
+	bottom:173px;
+    }
+    
+    
+}
+@media (max-width:826px){   
+    
+    #frase-slider{
+	font-size: 2em;
+    }
+    #pantalla{
+	bottom:194px;
+    }
+    
+    
+}
+@media (max-width:417px){   
+    
+    #frase-slider{
+	font-size: 1.6em;
+    }
+    #pantalla{
+	bottom:186px;
+    }
+    
+    
+}
+
+/*MEDIAQUERIES BOTON Y ANIMACIÓN IMÁN (AJUSTES DE DISTANCIA Y TAMAÑOS)*/
+
+
+@media (max-width:1750px){
+    
+    .sub-oferta-formativa2 .btn
+    {
+	right: 25%;
+    }
+}
+@media (max-width:1550px){
+    .sub-oferta-formativa2 .btn
+    {
+	right: 20%;
+    }
+}
+@media (max-width:1550px){
+    
+    .sub-oferta-formativa2 .btn
+    {
+	right: 15%;
+    }
+}
+@media (max-width:1300px){
+    
+
+    .sub-oferta-formativa2 .btn
+    {
+	right: 10%;
+    }
+}
+@media (max-width:1260px){
+    
+
+    .sub-oferta-formativa2 .btn
+    {
+	right: 5%;
+    }
+}
+@media (max-width:1200px){
+    .sub-oferta-formativa2 div.businessman{
+    display: none;
+}
+    
+
+    .sub-oferta-formativa2 .btn
+    {
+	right: 5%;
+    }
+}
+
+
+
+
+
+/*MEDIAQUERIES GLOBAL______________________*/
+
+@media (max-width:1200px){
+    .sub-oferta-formativa{
+	padding-bottom: 150px;
+    }
+}
+@media (max-width:1080px){
+    #frase-slider h3{
+	width: 90%;
+	margin:0 auto;
+    }
+    .intro p{
+	font-size: 1em;
+    }
+    .fortalezas{
+	width: 80%;
+    }
+    .fortaleza{
+	width: 45%;
+    }
+    .fortaleza p{
+	width: 70%;
+    }
+    .fortaleza:nth-child(3), .fortaleza:nth-child(4){
+	margin-top: 50px;
+    }
+    
+    /*OFERTA FORM________*/
+    
+    .oferta-formativa h2{
+	float: none;
+	width: 100%;
+    }
+    .oferta-formativa p{
+	width: 50%;
+	font-size: 1em;
+    }
+    .oferta-formativa ul{
+	width: 50%;
+    }
+    .statistics{
+	padding-top: 50px;
+    }
+    .statistics .square{
+	top:-75px;
+    }
+    .statistics p{
+	font-size: 1em;
+    }
+    .grafs{
+	width: 80%;
+	margin:0 auto;
+	padding: 0;
+    }
+    .statistic{
+	width: 33%;
+	float: left;
+	margin:0;
+    }
+    .graf{
+	width: 100%;
+    }
+    .graf, .subgraf, .subsubgraf{
+	border:none;
+	padding: 0;
+	border-radius: 0;
+    }
+    .grafs{
+	border:none;
+	background:  #6bbbb0;
+    }
+    .businessman2{
+	right: 0;
+	display: none;
+    }
+    .needs{
+	width: 80%;
+	font-size: 1em;
+    }
+    .need{
+	width: 100%;
+    }
+    #cloud{
+	-webkit-animation: none !important;
+    }
+    #cloud:nth-child(1){
+	display: none;
+    }
+    #cloud:nth-child(5){
+	top:25%;
+    }
+    #cloud:nth-child(3){
+	top:105%;
+	z-index: 99;
+    }
+    #cloud:nth-child(2),#cloud:nth-child(4),#cloud:nth-child(6),#cloud:nth-child(9),#cloud:nth-child(10),#cloud:nth-child(11){
+	display: none;
+    }
+    .subfooter1{
+	width: 80%;
+    }
+    
+    
+}
+@media(max-width:1000px){
+    .fortaleza p{
+	font-size: .8em;
+    }
+    
+    .businessman2{
+	right: 0;
+    }
+    /*OFERTA FORM________*/
+    
+    .oferta-formativa p{
+	width: 100%;
+	font-size: 1em;
+    }
+    .oferta-formativa ul{
+	width: 100%;
+    }
+    .subsubgraf{
+	padding: 0;
+    }
+    .subfooter1{
+	margin-top: 30px;
+	padding-bottom: 30px;
+    }
+    .col{
+	width: 100%;
+	text-align: center;
+    }
+    .col:first-child, .col:nth-child(2), .col:nth-child(3){
+	display: none;
+    }
+    .contact-data ul{
+	width: 80%;
+	
+    }
+    .contact-data ul li{
+	font-size: .9em;
+    }
+    .maincontact{
+	width: 80%;
+	left: 10%;
+	right: 10%;
+    }
+    .about-col{
+	width: 100%;
+    }
+    .about-col p{
+	padding: 0;
+	padding-bottom: 70px;
+    }
+    .portada p{
+	width: 80%;
+	font-size: 2em;
+	margin:0 auto;
+    }
+    .wrap70{
+	width: 80%;
+    }
+   
+    
+    
+    
+}
+@media (max-width:800px){
+    header a i{
+	display: none;
+    }
+    .fortaleza{
+	width: 100%;
+	margin:0 auto;
+    }
+    .fortaleza:nth-child(2){
+	margin-top: 50px;
+    }
+    .subsubgraf{
+	font-size: 1em;
+    }
+    .circleground{
+	height: 40px;
+	top:-20px;
+    }
+    
+    #cloud{
+	-webkit-animation: none !important;
+    }
+    
+    .contact-form .form{
+	width: 80%;
+    }
+    form{
+	width: 90%;
+    }
+    #runner{
+	width: 25%;
+    }
+    .contact-data ul{
+	padding-bottom: 550px;
+    }
+    .contact-data ul li{
+	width: 100%;
+	padding: 0;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #6bbbb0;
+	font-size: .9em;
+    }
+    .contact-data ul li:last-child{
+	border:0;
+    }
+    .frasecontacto p{
+	font-size: 1em;
+    }
+    .profile{
+	width: 100%;
+    }
+    
+    
+}
+
+
+
+@media (max-width:650px){
+    .main h1{
+	font-size: 1.5em;
+    }
+    h2{
+	font-size: 2.5em;
+    }
+    .oferta-formativa p{
+	font-size: .8em;
+	margin-top: 10px;
+    }
+    .subsubgraf{
+	font-size: .8em;
+    }
+    .contact-form .form{
+	width: 90%;
+    }
+    #runner{
+	width: 30%;
+    }
+    .maincontact form input{
+	width: 100%;
+    }
+    .maincontact form input[type="text"]{
+	margin-bottom: 0;
+    }
+    .maincontact form input[type="text"], .maincontact form input[type="email"]{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 15px;
+    }
+    .adress{
+	font-size: 1em;
+    }
+    
+    .metodologia .need{
+    }
+    
+    
+}
+@media (max-width:550px){
+    .statistic{
+	width: 100%;
+    }
+    .statistic:first-child, .statistic:nth-child(2){
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #fff;
+    }
+    #cloud:nth-child(5){
+	top:20%;
+    }
+    #cloud:nth-child(7){
+	top:122%;
+	right: 20%;
+    }
+    
+    /*MODIFICACION DEL WIDTH DEL MENU PARA MOVILES*/
+    
+    #menu{
+	width: 250px;
+    }
+    #menu li{
+	padding: 10px 40px;
+	font-size: .8em;
+    }
+    .gallery:after{
+	bottom:-190px;
+    }
+    .media i{
+	padding: 3px 0;
+	margin-top: 60px;
+    }
+    .adress{
+	font-size: .7em;
+    }
+    
+}
+
+
+
+@media (max-width:450px){
+    h2{
+	font-size: 2.2em;
+    }
+    .circleground{
+	height: 30px;
+	top:-15px;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"]{
+	width: 100%;
+    }
+    .contact-form input[type="email"]{
+	margin-bottom: 20px;
+    }
+    
+}
+
+
+
+@media (max-width:320px){
+    
+    
+    
+    
+}
