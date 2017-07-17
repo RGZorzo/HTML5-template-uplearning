@@ -11,5 +11,3 @@ Want to see a live demo?
 
 <a class="github-button" href="http://s614479658.mialojamiento.es/uplearning/" data-icon="octicon-eye" data-style="mega"  aria-label="Watch ntkme/github-buttons on GitHub">Click here</a>
 
-
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
